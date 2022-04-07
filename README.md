@@ -2,7 +2,7 @@
 使用picgo上传，用于存储hexo blog中用到的图片
 
 使用中遇到的问题
-1. 因为新换了电脑，重下下载了个pic-go进行配置，就一直报下面错误
+### 一、 因为新换了电脑，重下下载了个pic-go进行配置，使用过程中报下面错误
 
 ```
 [PicGo INFO] Before transform 
@@ -28,5 +28,7 @@ StatusCodeError: 404 - {"message":"Not Found","documentation_url":"https://docs.
 2022-04-07 17:05:01 [PicGo ERROR] 
 
 ```
+问题原因：
+分支master写错了，手快写成了mater
 解决方法：
-也不算是解决方法，在插件设置中安装了githubPlus，然后配置githubPlus，将githubPlus设置为默认图床，实现了能正常上传图片。
+就是一个很low的问题，本来不打算贴出来的，但是想想，再low的问题也是自己触发的，还是记下来，以儆效尤吧。
