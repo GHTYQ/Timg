@@ -28,3 +28,5 @@ StatusCodeError: 404 - {"message":"Not Found","documentation_url":"https://docs.
 2022-04-07 17:05:01 [PicGo ERROR] 
 
 ```
+解决方法：
+也不算是解决方法，在插件设置中安装了githubPlus，然后配置githubPlus，将githubPlus设置为默认图床，实现了能正常上传图片。
